@@ -1,0 +1,7 @@
+com\automation\steps\loginSteps.class
+com\automation\pages\basePage.class
+com\automation\pages\loginPage.class
+com\automation\steps\launchSteps.class
+com\automation\pages\launchPage.class
+com\automation\pages\locationPage.class
+com\automation\steps\locationStep.class
