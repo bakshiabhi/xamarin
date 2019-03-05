@@ -1,0 +1,435 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "NUnitTestAdapter/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NUnit.VisualStudio.TestAdapter.dll": {},
+          "lib/nunit.core.dll": {},
+          "lib/nunit.core.interfaces.dll": {},
+          "lib/nunit.util.dll": {}
+        },
+        "runtime": {
+          "lib/NUnit.VisualStudio.TestAdapter.dll": {},
+          "lib/nunit.core.dll": {},
+          "lib/nunit.core.interfaces.dll": {},
+          "lib/nunit.util.dll": {}
+        }
+      },
+      "SpecFlow/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/TechTalk.SpecFlow.dll": {}
+        },
+        "runtime": {
+          "lib/net45/TechTalk.SpecFlow.dll": {}
+        }
+      },
+      "SpecFlow.NUnit/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "2.6.0",
+          "SpecFlow": "(, )"
+        }
+      },
+      "Xamarin.UITest/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.UITest.dll": {}
+        }
+      },
+      "Xamarin.UITest.POP/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "2.6.4",
+          "Xamarin.UITest": "2.0.0"
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "NUnitTestAdapter/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NUnit.VisualStudio.TestAdapter.dll": {},
+          "lib/nunit.core.dll": {},
+          "lib/nunit.core.interfaces.dll": {},
+          "lib/nunit.util.dll": {}
+        },
+        "runtime": {
+          "lib/NUnit.VisualStudio.TestAdapter.dll": {},
+          "lib/nunit.core.dll": {},
+          "lib/nunit.core.interfaces.dll": {},
+          "lib/nunit.util.dll": {}
+        }
+      },
+      "SpecFlow/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/TechTalk.SpecFlow.dll": {}
+        },
+        "runtime": {
+          "lib/net45/TechTalk.SpecFlow.dll": {}
+        }
+      },
+      "SpecFlow.NUnit/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "2.6.0",
+          "SpecFlow": "(, )"
+        }
+      },
+      "Xamarin.UITest/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.UITest.dll": {}
+        }
+      },
+      "Xamarin.UITest.POP/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "2.6.4",
+          "Xamarin.UITest": "2.0.0"
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "NUnitTestAdapter/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NUnit.VisualStudio.TestAdapter.dll": {},
+          "lib/nunit.core.dll": {},
+          "lib/nunit.core.interfaces.dll": {},
+          "lib/nunit.util.dll": {}
+        },
+        "runtime": {
+          "lib/NUnit.VisualStudio.TestAdapter.dll": {},
+          "lib/nunit.core.dll": {},
+          "lib/nunit.core.interfaces.dll": {},
+          "lib/nunit.util.dll": {}
+        }
+      },
+      "SpecFlow/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/TechTalk.SpecFlow.dll": {}
+        },
+        "runtime": {
+          "lib/net45/TechTalk.SpecFlow.dll": {}
+        }
+      },
+      "SpecFlow.NUnit/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "2.6.0",
+          "SpecFlow": "(, )"
+        }
+      },
+      "Xamarin.UITest/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.UITest.dll": {}
+        }
+      },
+      "Xamarin.UITest.POP/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "2.6.4",
+          "Xamarin.UITest": "2.0.0"
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "NUnitTestAdapter/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NUnit.VisualStudio.TestAdapter.dll": {},
+          "lib/nunit.core.dll": {},
+          "lib/nunit.core.interfaces.dll": {},
+          "lib/nunit.util.dll": {}
+        },
+        "runtime": {
+          "lib/NUnit.VisualStudio.TestAdapter.dll": {},
+          "lib/nunit.core.dll": {},
+          "lib/nunit.core.interfaces.dll": {},
+          "lib/nunit.util.dll": {}
+        }
+      },
+      "SpecFlow/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/TechTalk.SpecFlow.dll": {}
+        },
+        "runtime": {
+          "lib/net45/TechTalk.SpecFlow.dll": {}
+        }
+      },
+      "SpecFlow.NUnit/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "2.6.0",
+          "SpecFlow": "(, )"
+        }
+      },
+      "Xamarin.UITest/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.UITest.dll": {}
+        }
+      },
+      "Xamarin.UITest.POP/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "2.6.4",
+          "Xamarin.UITest": "2.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NUnit/2.6.4": {
+      "sha512": "cmSPvaCMRSP0DI19FP1Liw9DyJY3E/vOY1OrVaeJBZpZFWHkmT3fB9ngGWnZX/ftvA7zJEbghEaw3Yd+u4YFAw==",
+      "type": "package",
+      "path": "nunit/2.6.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/nunit.framework.dll",
+        "lib/nunit.framework.xml",
+        "license.txt",
+        "nunit.2.6.4.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnitTestAdapter/2.0.0": {
+      "sha512": "w0f2er8eVYVdJIssFrEgbQgTWdtNWGOlqd87/pdpYgxJW1ACQwL1h3vhsT4vwVAHPbZEZvaO56bbZhu+swX0jw==",
+      "type": "package",
+      "path": "nunittestadapter/2.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/NUnit.VisualStudio.TestAdapter.dll",
+        "lib/nunit.core.dll",
+        "lib/nunit.core.interfaces.dll",
+        "lib/nunit.util.dll",
+        "nunittestadapter.2.0.0.nupkg.sha512",
+        "nunittestadapter.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "SpecFlow/2.1.0": {
+      "sha512": "lc6y3/Zu8CSU1EKve7V5LAvYt4TeLRU1H5bS+oO+cHTqx9elDlY4dxsnmaHeSSOOqJnKmlw0YtCu1TLu5lnrjA==",
+      "type": "package",
+      "path": "specflow/2.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "changelog.txt",
+        "content/App.config.transform",
+        "lib/net45/TechTalk.SpecFlow.dll",
+        "specflow.2.1.0.nupkg.sha512",
+        "specflow.nuspec",
+        "tools/Gherkin.dll",
+        "tools/Microsoft.Build.Utilities.v3.5.dll",
+        "tools/TechTalk.SpecFlow.Generator.dll",
+        "tools/TechTalk.SpecFlow.Parser.dll",
+        "tools/TechTalk.SpecFlow.Reporting.dll",
+        "tools/TechTalk.SpecFlow.Utils.dll",
+        "tools/TechTalk.SpecFlow.dll",
+        "tools/TechTalk.SpecFlow.targets",
+        "tools/TechTalk.SpecFlow.tasks",
+        "tools/app.config",
+        "tools/plugincompability.config",
+        "tools/specflow.exe",
+        "tools/specflow.exe.config"
+      ]
+    },
+    "SpecFlow.NUnit/1.1.1": {
+      "sha512": "2OS86YBWxYROKHz4ls14za5XzMixNiKbzxs35cP9cm73wnUT+MeQYoaH+2FV1DsTpSKBsI9o42QARIE9OUDGnw==",
+      "type": "package",
+      "path": "specflow.nunit/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/App.config.transform",
+        "specflow.nunit.1.1.1.nupkg.sha512",
+        "specflow.nunit.nuspec"
+      ]
+    },
+    "Xamarin.UITest/2.0.2": {
+      "sha512": "ry1ssUCDNx6VA88dEdc4Wlj43uczOlkCPpzce60tOSZNCXtv3gxjRW9ikN55YpeR+its0IvR3au5xGweqQF+pw==",
+      "type": "package",
+      "path": "xamarin.uitest/2.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Xamarin.UITest-License.rtf",
+        "lib/Xamarin.UITest.dll",
+        "lib/Xamarin.UITest.xml",
+        "tools/test-cloud.exe",
+        "xamarin.uitest.2.0.2.nupkg.sha512",
+        "xamarin.uitest.nuspec"
+      ]
+    },
+    "Xamarin.UITest.POP/1.0.0": {
+      "sha512": "yMtaIbwq4dCsJrK2c5LBnFZZtxcoifklAVX5CNRCakgenMlmW8usp3JMEjTQUuPwfMtLTmGJtO85fXMKdvqdfw==",
+      "type": "package",
+      "path": "xamarin.uitest.pop/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/portable-net45/AppManager.cs.pp",
+        "content/portable-net45/BasePage.cs.pp",
+        "content/portable-net45/BaseTestFixture.cs.pp",
+        "content/portable-net45/PlatformQuery.cs.pp",
+        "readme.txt",
+        "xamarin.uitest.pop.1.0.0.nupkg.sha512",
+        "xamarin.uitest.pop.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "NUnitTestAdapter >= 2.0.0",
+      "SpecFlow >= 2.1.0",
+      "SpecFlow.NUnit >= 1.1.1",
+      "Xamarin.UITest >= 2.0.2",
+      "Xamarin.UITest.POP >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ramana.Sadaneni\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ramana.Sadaneni\\source\\repos\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices.csproj",
+      "projectName": "Xamarin_CoreServices",
+      "projectPath": "C:\\Users\\Ramana.Sadaneni\\source\\repos\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices.csproj",
+      "packagesPath": "C:\\Users\\Ramana.Sadaneni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ramana.Sadaneni\\source\\repos\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Ramana.Sadaneni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "NUnitTestAdapter": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "SpecFlow": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "SpecFlow.NUnit": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
+          "Xamarin.UITest": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Xamarin.UITest.POP": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "SpecFlow.NUnit 1.1.1 depends on NUnit (>= 2.6.0) but NUnit 2.6.0 was not found. An approximate best match of NUnit 2.6.0.12051 was resolved.",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    }
+  ]
+}
