@@ -45,6 +45,7 @@ namespace Xamarin_CoreServices
  
                 app = ConfigureApp
                     .Android
+                    .DeviceSerial("16018522500959")
                     // Used to run a .apk file:
                     .ApkFile(ApkPath)
                     .StartApp();
