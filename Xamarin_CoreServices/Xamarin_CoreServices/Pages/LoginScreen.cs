@@ -19,6 +19,7 @@ namespace Xamarin_CoreServices.Pages
         readonly Query pinText;
         readonly Query loginBtn;
         readonly Query ToastMessage;
+        readonly query sample;
 
 
         Platform platform;
