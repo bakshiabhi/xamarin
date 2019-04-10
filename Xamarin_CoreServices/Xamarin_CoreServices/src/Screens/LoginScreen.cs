@@ -81,5 +81,26 @@ namespace Xamarin_CoreServices.Screens
             app.WaitForElement(ToastMessage);
         }
 
+       
+        //adb shell am broadcast -a com.royalmail.scan.ACTION --es com.symbol.datawedge.data_string "1234567890"
+        public virtual void sendBarcode(string Barcode)
+        {
+
+            string barcodeQueryString = string.Format("adb shell am broadcast -a com.royalmail.scan.ACTION --es com.symbol.datawedge.data_string " + Barcode);
+            AdbBarcodeClient barcode = new AdbBarcodeClient();
+            try
+            {
+                barcode.runADBCommand(barcodeQueryString);
+            }
+            catch (Exception e)
+            {
+                // TODO Auto-generated catch block
+                Console.WriteLine(e.ToString());
+                Console.Write(e.StackTrace);
+            }
+        }
+
+    
+
     }
 }

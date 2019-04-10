@@ -1088,11 +1088,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ramana.Sadaneni\\source\\repos\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices.csproj",
+      "projectUniqueName": "C:\\Users\\Ramana.Sadaneni\\Downloads\\VSTS_Automation\\Xamarin%20UI%20tests\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices.csproj",
       "projectName": "Xamarin_CoreServices",
-      "projectPath": "C:\\Users\\Ramana.Sadaneni\\source\\repos\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices.csproj",
+      "projectPath": "C:\\Users\\Ramana.Sadaneni\\Downloads\\VSTS_Automation\\Xamarin%20UI%20tests\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices.csproj",
       "packagesPath": "C:\\Users\\Ramana.Sadaneni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ramana.Sadaneni\\source\\repos\\Xamarin_CoreServices\\Xamarin_CoreServices\\Xamarin_CoreServices\\obj\\",
+      "outputPath": "C:\\Users\\Ramana.Sadaneni\\Downloads\\VSTS_Automation\\Xamarin%20UI%20tests\\Xamarin_CoreServices\\Xamarin_CoreServices\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
